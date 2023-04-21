@@ -1,0 +1,56 @@
+/* Define header image */
+.header-image {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/05/25/11/11/1000_F_525111169_c16k6AGCVLgdwwNKl6kkvsKzVNaOTCaM.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-image h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 300px;
+  }
+  
+  .team-member img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 300px;
+  }
+  
+  /* Define introduction */
+  .section {
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+  }
+  
+  .section p {
+    font-size: 1rem;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .header-image h1 {
+      font-size: 2rem;
+    }
+    
+    .section p {
+      font-size: 1rem;
+    }
+  }
+  
